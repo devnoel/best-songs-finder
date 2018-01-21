@@ -1,0 +1,21 @@
+{
+  "name": "best-songs-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"**/*.spec.js\""
+  },
+  "author": "Noel Pais",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.1.0",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

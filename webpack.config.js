@@ -1,12 +1,16 @@
-module.exports = {
-  entry: __dirname + "app/App",
+const path = require("path")
+
+const config = {
+  entry: path.resolve(__dirname, "app/App.jsx"),
   output: {
-    path: __dirname + "build",
+    path: path.resolve(__dirname, "build"),
     filename: "app.bundle.js"
   },
   module: {
-    rules: [
-      { test: /\.jsx$/, use: "babel-loader" }
+    loaders: [
+      { test: /\.jsx$/, exclude: /node_modules/, use: "babel-loader" }
     ]
   }
 }
+
+module.exports = config

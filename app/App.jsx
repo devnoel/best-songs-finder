@@ -1,6 +1,6 @@
 "use strict"
 
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class App extends Component {
   render() {
@@ -8,8 +8,8 @@ class App extends Component {
       <div>
         
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

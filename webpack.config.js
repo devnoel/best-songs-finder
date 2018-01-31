@@ -1,15 +1,24 @@
 const path = require("path")
+const src = path.resolve(__dirname, "app", "src")
+const dist = path.resolve(__dirname, "app", "dist")
 
 const config = {
-  entry: path.resolve(__dirname, "app/App.jsx"),
+  entry: path.resolve(src, "main.jsx"),
   output: {
-    path: path.resolve(__dirname, "build"),
-    filename: "app.bundle.js"
+    path: dist,
+    filename: "main.bundle.js"
   },
   module: {
-    loaders: [
-      { test: /\.jsx$/, exclude: /node_modules/, use: "babel-loader" }
+    rules: [
+      {
+        test: /\.js(x?)$/,
+        include: src,
+        use: [ "babel-loader" ]
+      }
     ]
+  },
+  resolve: {
+    extensions: [".js", ".jsx"]
   }
 }
 

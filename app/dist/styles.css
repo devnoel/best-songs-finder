@@ -1,0 +1,63 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p, h2, input, .cl-card h1 {
+  margin: 8px 24px;
+}
+
+.cl-page {
+  margin: auto;
+  max-width: 600px;
+}
+
+.cl-card {
+  background-color: white;
+  margin: 16px 0px 16px 0px;
+  box-shadow: 1px 1px 4px #888888;
+  overflow: auto;
+}
+
+.cl-tile {
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  overflow: auto;
+}
+
+.cl-row {
+  clear: both;
+  overflow: auto;
+}
+
+.cl-row-head {
+  float: left;
+}
+
+.cl-row-tail {
+  float: right;
+}
+
+.i-raised-btn {
+  float: left;
+  margin-top: 0;
+  margin-right: 24px;
+}
+
+.i-raised-btn a {
+  padding: 2px 10px;
+  margin: 8px 24px;
+}
+
+.apl-notification-card {
+  overflow: auto;
+}

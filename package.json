@@ -12,22 +12,22 @@
   "author": "Noel Pais",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1",
-    "mocha": "^4.1.0",
-    "supertest": "^3.0.0",
-    "webpack": "^3.10.0",
-    "webpack-merge": "^4.1.1"
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "chai": "4.1.2",
+    "chai-as-promised": "7.1.1",
+    "mocha": "4.1.0",
+    "supertest": "3.0.0",
+    "webpack": "3.10.0",
+    "webpack-merge": "4.1.1"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-router-dom": "^4.2.2"
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-router-dom": "4.2.2"
   }
 }

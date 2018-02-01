@@ -1,8 +1,8 @@
-# "Legjobb dalok" kereső
+# Best songs finder
 
-Ez az alkalmazás a kliens oldala [ennek a feladatnak](https://gszabo.github.io/elte-korszeru-web/homework/2017-2/index.html).
+This application is [specified here](https://gszabo.github.io/elte-korszeru-web/homework/2017-2/index.html).
 
-## Telepítés és szerver indítása:
+## Installation and server initialization:
 
 1. git clone https://github.com/devnoel/best-songs-finder
 1. npm init

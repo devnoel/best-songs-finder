@@ -1,7 +1,7 @@
 "use strict"
 
-import React, { Component } from 'react';
-import RaisedButton from '../common-layout/RaisedButton';
+import React, { Component } from "react"
+import RaisedButton from "../common-layout/RaisedButton"
 
 class RaisedButtonInput extends Component {
   render() {
@@ -9,8 +9,8 @@ class RaisedButtonInput extends Component {
       <RaisedButton>
         <input type={this.props.type} value={this.props.value} />
       </RaisedButton>
-    );
+    )
   }
 }
 
-export default RaisedButtonInput;
+export default RaisedButtonInput

@@ -1,7 +1,7 @@
 "use strict"
 
-import React, { Component } from 'react';
-import SongTile from './SongTile';
+import React, { Component } from "react"
+import SongTile from "./SongTile"
 
 class Song extends Component {
   render() {
@@ -11,8 +11,8 @@ class Song extends Component {
         <p key="title">{song.title}</p>
         {song.frequency && <p key="freq">{song.frequency} lejátszás</p>}
       </SongTile>
-    );
+    )
   }
 }
 
-export default Song;
+export default Song

@@ -1,7 +1,7 @@
 "use strict"
 
-import React, { Component } from 'react';
-import Card from './Card';
+import React, { Component } from "react"
+import Card from "./Card"
 
 class RaisedButton extends Component {
   render() {
@@ -9,8 +9,8 @@ class RaisedButton extends Component {
       <Card className={`i-raised-btn`}>
         {this.props.children}
       </Card>
-    );
+    )
   }
 }
 
-export default RaisedButton;
+export default RaisedButton

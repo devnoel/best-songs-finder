@@ -1,13 +1,13 @@
 "use strict"
 
-import React, { Component } from 'react';
-import { Redirect } from 'react-router';
-import AlbumSongsContainer from '../album/AlbumSongsContainer';
-import Album from '../album/Album';
+import React, { Component } from "react"
+import { Redirect } from "react-router"
+import AlbumSongsContainer from "../album/AlbumSongsContainer"
+import Album from "../album/Album"
 
 class AlbumListItem extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       requested: false,
       top: props.album.length
@@ -44,8 +44,8 @@ class AlbumListItem extends Component {
           <Album value={props.album} />
         </AlbumSongsContainer>
       </li>
-    );
+    )
   }
 }
 
-export default AlbumListItem;
+export default AlbumListItem

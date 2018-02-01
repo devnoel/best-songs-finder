@@ -1,16 +1,16 @@
 "use strict"
 
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Page from '../common-layout/Page';
-import MainHeading from '../common-layout/MainHeading';
-import Card from '../common-layout/Card';
-import RaisedButton from '../common-layout/RaisedButton';
-import Album from '../album/Album';
+import React, { Component } from "react"
+import { Link } from "react-router-dom"
+import Page from "../common-layout/Page"
+import MainHeading from "../common-layout/MainHeading"
+import Card from "../common-layout/Card"
+import RaisedButton from "../common-layout/RaisedButton"
+import Album from "../album/Album"
 
 class BestSongsPage extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       album: {id: "?", songs: []},
       loaded: false
@@ -55,8 +55,8 @@ class BestSongsPage extends Component {
           <Link to="/albums">Vissza</Link>
         </RaisedButton>
       </Page>
-    );
+    )
   }
 }
 
-export default BestSongsPage;
+export default BestSongsPage

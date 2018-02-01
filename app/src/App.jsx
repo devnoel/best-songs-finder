@@ -2,8 +2,8 @@
 
 import React, { Component } from "react"
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom"
-import AlbumsPage from "./pages/AlbumsPage";
-import BestSongsPage from "./pages/BestSongsPage";
+import AlbumsPage from "./pages/AlbumsPage"
+import BestSongsPage from "./pages/BestSongsPage"
 
 class App extends Component {
   render() {

@@ -1,7 +1,7 @@
 "use strict"
 
-import React, { Component } from 'react';
-import SongListItem from './SongListItem';
+import React, { Component } from "react"
+import SongListItem from "./SongListItem"
 
 class SongList extends Component {
   render() {
@@ -11,8 +11,8 @@ class SongList extends Component {
           <SongListItem key={song.title} song={song} />
         )}
       </ul>
-    );
+    )
   }
 }
 
-export default SongList;
+export default SongList

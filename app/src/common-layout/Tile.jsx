@@ -1,6 +1,6 @@
 "use strict"
 
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 class Tile extends Component {
   render() {
@@ -13,4 +13,4 @@ class Tile extends Component {
   }
 }
 
-export default Tile;
+export default Tile

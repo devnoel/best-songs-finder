@@ -1,12 +1,12 @@
 "use strict"
 
-import React, { Component } from 'react';
+import React, { Component } from "react"
 import NumberInput from "./NumberInput"
-import Tile from '../common-layout/Tile';
+import Tile from "../common-layout/Tile"
 
 class GetBestSongsInput extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       top: ""
     }
@@ -35,8 +35,8 @@ class GetBestSongsInput extends Component {
           <input className="cl-row-tail" type="submit" value="Keres" />
         </Tile>
       </form>
-    );
+    )
   }
 }
 
-export default GetBestSongsInput;
+export default GetBestSongsInput

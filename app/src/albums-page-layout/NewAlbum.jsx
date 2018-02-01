@@ -1,12 +1,12 @@
 "use strict"
 
-import React, { Component } from 'react';
-import Album from '../album/Album';
-import AlbumEditContainer from '../album/AlbumEditContainer';
+import React, { Component } from "react"
+import Album from "../album/Album"
+import AlbumEditContainer from "../album/AlbumEditContainer"
 
 class NewAlbum extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
   
@@ -28,8 +28,8 @@ class NewAlbum extends Component {
       <AlbumEditContainer onSubmit={this.handleSubmit}>
         <Album />
       </AlbumEditContainer>
-    );
+    )
   }
 }
 
-export default NewAlbum;
+export default NewAlbum

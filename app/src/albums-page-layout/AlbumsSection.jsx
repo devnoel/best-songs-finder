@@ -1,13 +1,13 @@
 "use strict"
 
-import React, { Component, Fragment } from "react";
-import MainHeading from '../common-layout/MainHeading';
-import AlbumList from './AlbumList';
-import NewAlbum from './NewAlbum';
+import React, { Component, Fragment } from "react"
+import MainHeading from "../common-layout/MainHeading"
+import AlbumList from "./AlbumList"
+import NewAlbum from "./NewAlbum"
 
 class AlbumsSection extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       albums: []
     }
@@ -39,8 +39,8 @@ class AlbumsSection extends Component {
         <AlbumList albums={this.state.albums} />
         <NewAlbum onNewAlbum={this.updateAlbums} />
       </Fragment>
-    );
+    )
   }
 }
 
-export default AlbumsSection;
+export default AlbumsSection

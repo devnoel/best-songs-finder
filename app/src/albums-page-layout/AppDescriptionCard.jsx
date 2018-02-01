@@ -1,7 +1,7 @@
 "use strict"
 
-import React, { Component } from "react";
-import Card from "../common-layout/Card";
+import React, { Component } from "react"
+import Card from "../common-layout/Card"
 
 class AppDescriptionCard extends Component {
   render() {
@@ -18,8 +18,8 @@ class AppDescriptionCard extends Component {
           <li>npm start</li>
         </ol>
       </Card>
-    );
+    )
   }
 }
 
-export default AppDescriptionCard;
+export default AppDescriptionCard

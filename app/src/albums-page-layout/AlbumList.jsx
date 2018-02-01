@@ -1,8 +1,8 @@
 "use strict"
 
-import React, { Component } from 'react';
+import React, { Component } from "react"
 import AlbumListItem from "./AlbumListItem"
-import Card from '../common-layout/Card';
+import Card from "../common-layout/Card"
 
 class AlbumList extends Component {
   render() {
@@ -14,8 +14,8 @@ class AlbumList extends Component {
           )}
         </ul>
       </Card>
-    );
+    )
   }
 }
 
-export default AlbumList;
+export default AlbumList

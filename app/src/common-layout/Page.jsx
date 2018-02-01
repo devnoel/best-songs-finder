@@ -1,6 +1,6 @@
 "use strict"
 
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 class Page extends Component {
   render() {
@@ -13,4 +13,4 @@ class Page extends Component {
   }
 }
 
-export default Page;
+export default Page

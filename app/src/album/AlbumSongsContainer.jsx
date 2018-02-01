@@ -1,11 +1,11 @@
 "use strict"
 
-import React, { Component, Children } from 'react';
-import GetBestSongsInput from '../input/GetBestSongsInput';
+import React, { Component, Children } from "react"
+import GetBestSongsInput from "../input/GetBestSongsInput"
 
 class AlbumSongsContainer extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
   
@@ -26,8 +26,8 @@ class AlbumSongsContainer extends Component {
         {this.renderChildren()}
         <GetBestSongsInput onSubmit={this.handleSubmit} />
       </section>
-    );
+    )
   }
 }
 
-export default AlbumSongsContainer;
+export default AlbumSongsContainer

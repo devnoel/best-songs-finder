@@ -1,7 +1,7 @@
 "use strict"
 
-import React, { Component } from 'react';
-import Tile from '../common-layout/Tile';
+import React, { Component } from "react"
+import Tile from "../common-layout/Tile"
 const classSet = React.addons
 
 class SongTile extends Component {
@@ -26,8 +26,8 @@ class SongTile extends Component {
       <Tile className="cl-row">
         {this.renderChildren()}
       </Tile>
-    );
+    )
   }
 }
 
-export default SongTile;
+export default SongTile

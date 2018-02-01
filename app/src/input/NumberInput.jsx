@@ -1,10 +1,10 @@
 "use strict"
 
-import React, { Component } from 'react';
+import React, { Component } from "react"
 
 class NumberInput extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.handleChange = this.handleChange.bind(this)
   }
   
@@ -23,8 +23,8 @@ class NumberInput extends Component {
     return (
       <input className={props.className} type="text" value={props.value}
         placeholder={props.placeholder} onChange={this.handleChange} />
-    );
+    )
   }
 }
 
-export default NumberInput;
+export default NumberInput

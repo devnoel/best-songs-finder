@@ -1,12 +1,12 @@
 "use strict"
 
-import React, { Component } from 'react';
-import NumberInput from './NumberInput';
-import SongTile from '../album/SongTile';
+import React, { Component } from "react"
+import NumberInput from "./NumberInput"
+import SongTile from "../album/SongTile"
 
 class NewSongInput extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.initialState = {title: "", frequency: ""}
     this.state = this.initialState
 
@@ -51,8 +51,8 @@ class NewSongInput extends Component {
         <input key="submit" type="submit" value="Hozzáad" disabled={!this.isValid()}
             onClick={this.handleSubmit} />
       </SongTile>
-    );
+    )
   }
 }
 
-export default NewSongInput;
+export default NewSongInput

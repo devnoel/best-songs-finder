@@ -1,13 +1,13 @@
 "use strict"
 
-import React, { Component, Children } from 'react';
-import Card from '../common-layout/Card';
-import NewSongInput from '../input/NewSongInput';
-import RaisedButtonInput from '../input/RaisedButtonInput';
+import React, { Component, Children } from "react"
+import Card from "../common-layout/Card"
+import NewSongInput from "../input/NewSongInput"
+import RaisedButtonInput from "../input/RaisedButtonInput"
 
 class AlbumEditContainer extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       songs: []
     }
@@ -62,8 +62,8 @@ class AlbumEditContainer extends Component {
           <RaisedButtonInput type="submit" value="Kész" />
         </form>
       </section>
-    );
+    )
   }
 }
 
-export default AlbumEditContainer;
+export default AlbumEditContainer

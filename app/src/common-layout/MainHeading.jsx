@@ -1,6 +1,6 @@
 "use strict"
 
-import React, { Children } from 'react';
+import React, { Children } from "react"
 
 function MainHeading(props) {
   return (
@@ -10,4 +10,4 @@ function MainHeading(props) {
   )
 }
 
-export default MainHeading;
+export default MainHeading

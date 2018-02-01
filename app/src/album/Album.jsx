@@ -1,8 +1,8 @@
 "use strict"
 
-import React, { Component, Fragment } from 'react';
-import AlbumHeader from './AlbumHeader';
-import SongList from './SongList';
+import React, { Component, Fragment } from "react"
+import AlbumHeader from "./AlbumHeader"
+import SongList from "./SongList"
 
 class Album extends Component {
   render() {
@@ -12,7 +12,7 @@ class Album extends Component {
         <AlbumHeader title={"Album " + album.id} />
         {this.props.open && <SongList songs={album.songs} />}
       </Fragment>
-    );
+    )
   }
 }
 

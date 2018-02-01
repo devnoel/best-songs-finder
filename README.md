@@ -9,3 +9,5 @@ This application is [specified here](https://gszabo.github.io/elte-korszeru-web/
 1. npm install
 1. npm run build
 1. npm start
+
+The client side page will be available at http://localhost:8080/albums

@@ -6,7 +6,7 @@
   "scripts": {
     "build-dev": "webpack",
     "build": "webpack --config webpack.prod.js",
-    "test": "mocha \"**/*.spec.js\"",
+    "test": "mocha \"lib/**/*.spec.js\"",
     "start": "node index.js"
   },
   "author": "Noel Pais",
